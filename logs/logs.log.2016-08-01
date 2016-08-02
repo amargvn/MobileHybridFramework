@@ -1,0 +1,43 @@
+2016-08-01 15:20:07 INFO  FunctionLibrary:27 - Initialized All Resources Files
+2016-08-01 15:20:07 INFO  FunctionLibrary:29 - Creatng Driver Script Object
+2016-08-01 15:20:07 INFO  FunctionLibrary:31 - Creating Test Suite
+2016-08-01 15:20:07 INFO  FunctionLibrary:33 - Creating Test Suite For Email Report
+2016-08-01 15:20:07 INFO  FunctionLibrary:67 - Passing Parameters Driver Script to ContolScript
+2016-08-01 15:20:14 INFO  FunctionLibrary:958 - App is Launched
+2016-08-01 15:20:14 INFO  FunctionLibrary:960 - Waiting 2000 seconds
+2016-08-01 15:20:15 INFO  FunctionLibrary:77 - Loading Page
+2016-08-01 15:20:26 INFO  FunctionLibrary:60 - Clicking on Button Sign in
+2016-08-01 15:20:48 INFO  FunctionLibrary:67 - Entering Data into com.altia.panacast:id/txtName
+2016-08-01 15:21:01 INFO  FunctionLibrary:67 - Entering Data into com.altia.panacast:id/txtLastName
+2016-08-01 15:21:14 INFO  FunctionLibrary:1025 - Hide the Keyboard
+2016-08-01 15:21:15 INFO  FunctionLibrary:67 - Entering Data into com.altia.panacast:id/txtEmail
+2016-08-01 15:21:28 INFO  FunctionLibrary:1025 - Hide the Keyboard
+2016-08-01 15:21:29 INFO  FunctionLibrary:60 - Clicking on Button Sign In
+2016-08-01 15:21:33 INFO  FunctionLibrary:77 - Loading Page
+2016-08-01 15:21:44 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnStartMeeting
+2016-08-01 15:21:57 INFO  FunctionLibrary:67 - Entering Data into com.altia.panacast:id/cameraID
+2016-08-01 15:22:09 INFO  FunctionLibrary:1025 - Hide the Keyboard
+2016-08-01 15:22:10 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnStart
+2016-08-01 15:22:23 INFO  FunctionLibrary:77 - Loading Page
+2016-08-01 15:22:34 INFO  FunctionLibrary:77 - Loading Page
+2016-08-01 15:22:45 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnMute
+2016-08-01 15:22:58 INFO  FunctionLibrary:60 - Clicking on Button Mute
+2016-08-01 15:23:20 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnInvite
+2016-08-01 15:23:32 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnCancel
+2016-08-01 15:23:45 INFO  FunctionLibrary:77 - Loading Page
+2016-08-01 15:23:56 INFO  FunctionLibrary:1046 - Tap on the screen
+2016-08-01 15:23:57 INFO  FunctionLibrary:1046 - Tap on the screen
+2016-08-01 15:23:58 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnLeave
+2016-08-01 15:24:11 INFO  FunctionLibrary:60 - Clicking on Button android:id/button2
+2016-08-01 15:24:23 INFO  FunctionLibrary:77 - Loading Page
+2016-08-01 15:24:34 INFO  FunctionLibrary:77 - Loading Page
+2016-08-01 15:24:45 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnJoinMeeting
+2016-08-01 15:24:57 INFO  FunctionLibrary:77 - Loading Page
+2016-08-01 15:25:08 INFO  FunctionLibrary:77 - Loading Page
+2016-08-01 15:25:19 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnLeave
+2016-08-01 15:25:32 INFO  FunctionLibrary:60 - Clicking on Button android:id/button1
+2016-08-01 15:25:44 INFO  FunctionLibrary:77 - Loading Page
+2016-08-01 15:25:55 INFO  FunctionLibrary:60 - Clicking on Button android:id/button1
+2016-08-01 15:26:08 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnLogout
+2016-08-01 15:26:21 INFO  FunctionLibrary:60 - Clicking on Button android:id/button1
+2016-08-01 15:26:33 INFO  FunctionLibrary:83 - Test Scenario Result --Pass

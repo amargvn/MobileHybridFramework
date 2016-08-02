@@ -1,0 +1,120 @@
+2016-08-02 11:48:53 INFO  FunctionLibrary:27 - Initialized All Resources Files
+2016-08-02 11:48:53 INFO  FunctionLibrary:29 - Creatng Driver Script Object
+2016-08-02 11:48:53 INFO  FunctionLibrary:31 - Creating Test Suite
+2016-08-02 11:48:53 INFO  FunctionLibrary:33 - Creating Test Suite For Email Report
+2016-08-02 11:48:53 INFO  FunctionLibrary:67 - Passing Parameters Driver Script to ContolScript
+2016-08-02 11:49:00 INFO  FunctionLibrary:958 - App is Launched
+2016-08-02 11:49:00 INFO  FunctionLibrary:960 - Waiting 2000 seconds
+2016-08-02 11:49:01 INFO  FunctionLibrary:77 - Loading Page
+2016-08-02 11:49:12 INFO  FunctionLibrary:67 - Entering Data into com.tufamilia.app.tuvida:id/et_sign_in_email
+2016-08-02 11:49:23 INFO  FunctionLibrary:1022 - Hide the Keyboard
+2016-08-02 11:49:24 INFO  FunctionLibrary:67 - Entering Data into com.tufamilia.app.tuvida:id/et_sign_in_password
+2016-08-02 11:49:33 INFO  FunctionLibrary:1022 - Hide the Keyboard
+2016-08-02 11:49:34 INFO  FunctionLibrary:60 - Clicking on Button com.tufamilia.app.tuvida:id/bt_sign_in_submit
+2016-08-02 11:49:43 INFO  FunctionLibrary:83 - Test Scenario Result --Pass
+2016-08-02 11:59:39 INFO  FunctionLibrary:27 - Initialized All Resources Files
+2016-08-02 11:59:39 INFO  FunctionLibrary:29 - Creatng Driver Script Object
+2016-08-02 11:59:39 INFO  FunctionLibrary:31 - Creating Test Suite
+2016-08-02 11:59:39 INFO  FunctionLibrary:33 - Creating Test Suite For Email Report
+2016-08-02 11:59:39 INFO  FunctionLibrary:67 - Passing Parameters Driver Script to ContolScript
+2016-08-02 11:59:44 INFO  FunctionLibrary:958 - App is Launched
+2016-08-02 11:59:44 INFO  FunctionLibrary:960 - Waiting 2000 seconds
+2016-08-02 11:59:45 INFO  FunctionLibrary:77 - Loading Page
+2016-08-02 11:59:56 INFO  FunctionLibrary:60 - Clicking on Button com.tufamilia.app.tuvida:id/tv_sign_in_signUp
+2016-08-02 12:00:07 INFO  FunctionLibrary:1025 - Hide the Keyboard
+2016-08-02 12:00:08 INFO  FunctionLibrary:67 - Entering Data into com.tufamilia.app.tuvida:id/et_sign_up_password
+2016-08-02 12:00:15 INFO  FunctionLibrary:1022 - Hide the Keyboard
+2016-08-02 12:00:16 INFO  FunctionLibrary:67 - Entering Data into com.tufamilia.app.tuvida:id/et_sign_up_confirm_pwd
+2016-08-02 12:00:25 INFO  FunctionLibrary:1022 - Hide the Keyboard
+2016-08-02 12:00:26 INFO  FunctionLibrary:60 - Clicking on Button com.tufamilia.app.tuvida:id/cb_sign_up_ageconfirm
+2016-08-02 12:00:27 INFO  FunctionLibrary:60 - Clicking on Button com.tufamilia.app.tuvida:id/bt_sign_in_submit
+2016-08-02 12:00:41 INFO  FunctionLibrary:83 - Test Scenario Result --Pass
+2016-08-02 12:14:23 INFO  FunctionLibrary:27 - Initialized All Resources Files
+2016-08-02 12:14:23 INFO  FunctionLibrary:29 - Creatng Driver Script Object
+2016-08-02 12:14:23 INFO  FunctionLibrary:31 - Creating Test Suite
+2016-08-02 12:14:23 INFO  FunctionLibrary:33 - Creating Test Suite For Email Report
+2016-08-02 12:14:23 INFO  FunctionLibrary:67 - Passing Parameters Driver Script to ContolScript
+2016-08-02 12:14:28 INFO  FunctionLibrary:958 - App is Launched
+2016-08-02 12:14:28 INFO  FunctionLibrary:960 - Waiting 2000 seconds
+2016-08-02 12:14:29 INFO  FunctionLibrary:77 - Loading Page
+2016-08-02 12:14:40 INFO  FunctionLibrary:60 - Clicking on Button com.tufamilia.app.tuvida:id/tv_sign_in_signUp
+2016-08-02 12:14:44 INFO  FunctionLibrary:1025 - Hide the Keyboard
+2016-08-02 12:14:45 INFO  FunctionLibrary:67 - Entering Data into com.tufamilia.app.tuvida:id/et_sign_up_password
+2016-08-02 12:14:54 INFO  FunctionLibrary:1022 - Hide the Keyboard
+2016-08-02 12:14:55 INFO  FunctionLibrary:67 - Entering Data into com.tufamilia.app.tuvida:id/et_sign_up_confirm_pwd
+2016-08-02 12:15:03 INFO  FunctionLibrary:1022 - Hide the Keyboard
+2016-08-02 12:15:04 INFO  FunctionLibrary:60 - Clicking on Button com.tufamilia.app.tuvida:id/cb_sign_up_ageconfirm
+2016-08-02 12:15:05 INFO  FunctionLibrary:60 - Clicking on Button com.tufamilia.app.tuvida:id/bt_sign_in_submit
+2016-08-02 12:15:19 INFO  FunctionLibrary:83 - Test Scenario Result --Pass
+2016-08-02 12:15:59 INFO  FunctionLibrary:27 - Initialized All Resources Files
+2016-08-02 12:15:59 INFO  FunctionLibrary:29 - Creatng Driver Script Object
+2016-08-02 12:15:59 INFO  FunctionLibrary:31 - Creating Test Suite
+2016-08-02 12:15:59 INFO  FunctionLibrary:33 - Creating Test Suite For Email Report
+2016-08-02 12:15:59 INFO  FunctionLibrary:67 - Passing Parameters Driver Script to ContolScript
+2016-08-02 12:15:59 INFO  FunctionLibrary:122 - 
+org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 180 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'ML-AmarendraG-PC', ip: '10.10.18.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
+	at base.FunctionLibrary.Appium(FunctionLibrary.java:956)
+	at base.Keywords.controlScript(Keywords.java:82)
+	at scripts.DriverScriptTest.controlscript(DriverScriptTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+2016-08-02 12:15:59 INFO  FunctionLibrary:72 - Test Scenario Result --Fail
+2016-08-02 12:16:15 INFO  FunctionLibrary:27 - Initialized All Resources Files
+2016-08-02 12:16:15 INFO  FunctionLibrary:29 - Creatng Driver Script Object
+2016-08-02 12:16:15 INFO  FunctionLibrary:31 - Creating Test Suite
+2016-08-02 12:16:15 INFO  FunctionLibrary:33 - Creating Test Suite For Email Report
+2016-08-02 12:16:15 INFO  FunctionLibrary:67 - Passing Parameters Driver Script to ContolScript
+2016-08-02 12:16:20 INFO  FunctionLibrary:958 - App is Launched
+2016-08-02 12:16:20 INFO  FunctionLibrary:960 - Waiting 2000 seconds
+2016-08-02 12:16:21 INFO  FunctionLibrary:77 - Loading Page
+2016-08-02 12:16:32 INFO  FunctionLibrary:60 - Clicking on Button com.tufamilia.app.tuvida:id/tv_sign_in_signUp
+2016-08-02 12:16:34 INFO  FunctionLibrary:67 - Entering Data into com.tufamilia.app.tuvida:id/et_sign_up_firstname
+2016-08-02 12:16:41 INFO  FunctionLibrary:67 - Entering Data into com.tufamilia.app.tuvida:id/et_sign_up_lastname
+2016-08-02 12:16:48 INFO  FunctionLibrary:67 - Entering Data into com.tufamilia.app.tuvida:id/et_sign_up_email
+2016-08-02 12:16:57 INFO  FunctionLibrary:1022 - Hide the Keyboard
+2016-08-02 12:16:58 INFO  FunctionLibrary:67 - Entering Data into com.tufamilia.app.tuvida:id/et_sign_up_password
+2016-08-02 12:17:05 INFO  FunctionLibrary:1022 - Hide the Keyboard
+2016-08-02 12:17:06 INFO  FunctionLibrary:67 - Entering Data into com.tufamilia.app.tuvida:id/et_sign_up_confirm_pwd
+2016-08-02 12:17:14 INFO  FunctionLibrary:1022 - Hide the Keyboard
+2016-08-02 12:17:15 INFO  FunctionLibrary:60 - Clicking on Button com.tufamilia.app.tuvida:id/cb_sign_up_ageconfirm
+2016-08-02 12:17:17 INFO  FunctionLibrary:60 - Clicking on Button com.tufamilia.app.tuvida:id/bt_sign_in_submit
+2016-08-02 12:17:31 INFO  FunctionLibrary:83 - Test Scenario Result --Pass

@@ -1,0 +1,116 @@
+2016-02-08 14:12:02 INFO  FunctionLibrary:27 - Initialized All Resources Files
+2016-02-08 14:12:02 INFO  FunctionLibrary:29 - Creatng Driver Script Object
+2016-02-08 14:12:02 INFO  FunctionLibrary:31 - Creating Test Suite
+2016-02-08 14:12:02 INFO  FunctionLibrary:33 - Creating Test Suite For Email Report
+2016-02-08 14:12:03 INFO  FunctionLibrary:67 - Passing Parameters Driver Script to ContolScript
+2016-02-08 14:12:04 INFO  FunctionLibrary:126 - 
+org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'ML-AmarendraG-PC', ip: '172.16.0.155', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: AndroidDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
+	at base.FunctionLibrary.Appium(FunctionLibrary.java:1005)
+	at base.Keywords.controlScript(Keywords.java:85)
+	at scripts.DriverScriptTest.controlscript(DriverScriptTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 46 more
+2016-02-08 14:12:04 INFO  FunctionLibrary:72 - Test Scenario Result --Fail
+2016-02-08 14:13:09 INFO  FunctionLibrary:27 - Initialized All Resources Files
+2016-02-08 14:13:09 INFO  FunctionLibrary:29 - Creatng Driver Script Object
+2016-02-08 14:13:09 INFO  FunctionLibrary:31 - Creating Test Suite
+2016-02-08 14:13:09 INFO  FunctionLibrary:33 - Creating Test Suite For Email Report
+2016-02-08 14:13:09 INFO  FunctionLibrary:67 - Passing Parameters Driver Script to ContolScript
+2016-02-08 14:13:16 INFO  FunctionLibrary:1007 - App is Launched
+2016-02-08 14:13:16 INFO  FunctionLibrary:1009 - Waiting 2000 seconds
+2016-02-08 14:13:17 INFO  FunctionLibrary:77 - Loading Page
+2016-02-08 14:13:28 INFO  FunctionLibrary:60 - Clicking on Button Sign in
+2016-02-08 14:13:29 INFO  FunctionLibrary:67 - Entering Data into com.altia.panacast:id/txtName
+2016-02-08 14:13:35 INFO  FunctionLibrary:67 - Entering Data into com.altia.panacast:id/txtLastName
+2016-02-08 14:13:42 INFO  FunctionLibrary:1071 - Hide the Keyboard
+2016-02-08 14:13:43 INFO  FunctionLibrary:67 - Entering Data into com.altia.panacast:id/txtEmail
+2016-02-08 14:13:51 INFO  FunctionLibrary:1071 - Hide the Keyboard
+2016-02-08 14:13:52 INFO  FunctionLibrary:60 - Clicking on Button Sign In
+2016-02-08 14:13:53 INFO  FunctionLibrary:77 - Loading Page
+2016-02-08 14:14:04 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnStartMeeting
+2016-02-08 14:14:08 INFO  FunctionLibrary:67 - Entering Data into com.altia.panacast:id/cameraID
+2016-02-08 14:14:15 INFO  FunctionLibrary:1071 - Hide the Keyboard
+2016-02-08 14:14:17 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnStart
+2016-02-08 14:14:20 INFO  FunctionLibrary:77 - Loading Page
+2016-02-08 14:14:31 INFO  FunctionLibrary:77 - Loading Page
+2016-02-08 14:14:42 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnMute
+2016-02-08 14:14:43 INFO  FunctionLibrary:60 - Clicking on Button Mute
+2016-02-08 14:14:45 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnInvite
+2016-02-08 14:14:47 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnCancel
+2016-02-08 14:14:49 INFO  FunctionLibrary:77 - Loading Page
+2016-02-08 14:15:00 INFO  FunctionLibrary:1095 - Tap on the screen
+2016-02-08 14:15:01 INFO  FunctionLibrary:1095 - Tap on the screen
+2016-02-08 14:15:02 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnLeave
+2016-02-08 14:15:04 INFO  FunctionLibrary:60 - Clicking on Button android:id/button2
+2016-02-08 14:15:07 INFO  FunctionLibrary:77 - Loading Page
+2016-02-08 14:15:18 INFO  FunctionLibrary:77 - Loading Page
+2016-02-08 14:15:29 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnJoinMeeting
+2016-02-08 14:15:33 INFO  FunctionLibrary:77 - Loading Page
+2016-02-08 14:15:44 INFO  FunctionLibrary:77 - Loading Page
+2016-02-08 14:15:56 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnLeave
+2016-02-08 14:15:58 INFO  FunctionLibrary:60 - Clicking on Button android:id/button1
+2016-02-08 14:16:00 INFO  FunctionLibrary:77 - Loading Page
+2016-02-08 14:16:11 INFO  FunctionLibrary:60 - Clicking on Button android:id/button1
+2016-02-08 14:16:14 INFO  FunctionLibrary:60 - Clicking on Button com.altia.panacast:id/btnLogout
+2016-02-08 14:16:15 INFO  FunctionLibrary:60 - Clicking on Button android:id/button1
+2016-02-08 14:16:17 INFO  FunctionLibrary:83 - Test Scenario Result --Pass
